@@ -156,7 +156,7 @@
     var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR1dHFzdHRpYWhseG9oZWN3a3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYxMjMyNTYsImV4cCI6MjA5MTY5OTI1Nn0.Y4GG3T6R6TuRu6wqiORpvnPynUyDKd-MB7pRWyOBwW0";
     var sb = null;
     try {
-      if (window.supabase && SUPABASE_ANON_KEY !== "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR1dHFzdHRpYWhseG9oZWN3a3N0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYxMjMyNTYsImV4cCI6MjA5MTY5OTI1Nn0.Y4GG3T6R6TuRu6wqiORpvnPynUyDKd-MB7pRWyOBwW0") {
+      if (window.supabase && SUPABASE_ANON_KEY !== "REMPLACEZ_PAR_VOTRE_ANON_KEY") {
         sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
       }
     } catch(e) {
